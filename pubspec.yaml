@@ -1,0 +1,51 @@
+name: shopeasy
+description: A modern, production-quality Flutter E-Commerce app for internship assignment.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Carousel for banner slider
+  carousel_slider: ^4.2.1
+
+  # Google Fonts for premium typography
+  google_fonts: ^6.2.1
+
+  # Shimmer loading effect (bonus)
+  shimmer: ^3.0.0
+
+  # Smooth page indicator for carousel dots
+  smooth_page_indicator: ^1.1.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset declarations
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
